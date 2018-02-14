@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Primo Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <link rel="stylesheet" type= "text/css" href="css/bootstrap.css">
+</head>
+<body>
+<form class="text-center" method="GET" action="02esercizio.php">
+    <div class="container" align="center" class="row">
+        <div class="col-xs-12"><h1>Home: Accedi al tuo Account</h1></div>
+            <div class="form-group" class="col-xs-6">
+        <label for="username">Inserisci il tuo Username:</label>
+        <input type="username" class="form-control" id="username"  placeholder="Username" name="username" required>
+    </div>
+    <div class="form-group" class="col-xs-6">
+        <label for="password">Inserisci la tua Password:</label>
+        <input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
+    </div>
+    <div class="form-group" align="center">
+        <button type="submit" class="btn btn-primary">Invia</button>
+        <button type="reset" class="btn btn-primary">Cancella</button>
+    </div>
+    </div>
+</form>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
