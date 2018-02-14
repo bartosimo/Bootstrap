@@ -1,0 +1,48 @@
+#myPage a {
+    display: block;
+    margin-top: 42px;
+    margin-left: 30px;
+    width: 288px;
+    height: 34px;
+    background: url(file:\\\C:\Utenti\maggioli\Desktop\a.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    text-indent: -9999px;
+}
+
+a {
+    outline: none !important;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+    background-color: #e9e8dd;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+html {
+    -webkit-font-smoothing: antialiased;
+}
